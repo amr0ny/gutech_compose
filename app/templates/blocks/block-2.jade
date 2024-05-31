@@ -1,0 +1,34 @@
+mixin gallery
+  .gallery-container
+    img.display-none(src='/static/images/block-2/img-1.jpg', alt='Image 1')
+    img(src='/static/images/block-2/img-2.jpg', alt='Image 2')
+    img.display-none(src='/static/images/block-2/img-3.jpg', alt='Image 3')
+    img(src='/static/images/block-2/img-4.jpg', alt='Image 4')
+    img(src='/static/images/block-2/img-5.jpg', alt='Image 5')
+    img(src='/static/images/block-2/img-6.jpg', alt='Image 6')
+
+mixin dots
+  .dots-container.dots-container-1#dots-1
+    img(src='/static/images/block-2/dots.png')
+  .dots-container.dots-container-1#dots-2
+    img(src='/static/images/block-2/dots.png')
+  .dots-container.dots-container-1#dots-3
+    img(src='/static/images/block-2/dots.png')
+  .dots-container.dots-container-2#dots-4
+    img(src='/static/images/block-2/dots.png')
+  .dots-container.dots-container-2#dots-5
+    img(src='/static/images/block-2/dots.png')
+
+.block-2
+  .wrapper
+    .container.container-block-2
+      +gallery
+      .main-info-wrapper
+        p
+          | GUTECH - это надежная команда, которая реализовала более 300 онлайн-трансляций мероприятий разной сложности.
+          br                          
+          br
+          | Благодаря четкому планированию, ответственному подходу на каждом этапе проекта, своей технической базе и опытному персоналу,
+          | нам доверяют крупные компании среди которых:                        
+          strong Росатом, Сколково, Касперский, Департамент ИТ Москвы, ВДНХ, ВКонтакте и другие.
+      +dots

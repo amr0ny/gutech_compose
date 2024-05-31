@@ -1,0 +1,15 @@
+extends layout-adminlogin
+
+block content
+    .wrapper
+        .form-container
+            .login-form#js-fetch-form
+                form.admin-login-form
+                    .login-form-inputbox
+                        input(name='username' type='text', placeholder="Username")
+                    .login-form-inputbox
+                        input(name='password' type='password', placeholder='Password')
+                    .login-form-button
+                        input(type="submit" value='Войти' onclick='formLoginSubmitHandler(event)')
+    script(src='/static/javascripts/admin-submit-handler.js')
+            

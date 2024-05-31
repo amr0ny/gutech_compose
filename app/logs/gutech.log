@@ -1,0 +1,1444 @@
+[2024-02-12T15:16:30.421] [DEBUG] default - Admin {
+  dataValues: {
+    id: '758539ae-2d89-4638-8fd5-3ff39d959554',
+    username: 'alex',
+    password: '$2b$10$XQAlDpFwv0wLrZUDxHZbOudotEs/AC/SdAsI/zhQeFpVcCbT.gJZ.'
+  },
+  _previousDataValues: {
+    id: '758539ae-2d89-4638-8fd5-3ff39d959554',
+    username: 'alex',
+    password: '$2b$10$XQAlDpFwv0wLrZUDxHZbOudotEs/AC/SdAsI/zhQeFpVcCbT.gJZ.'
+  },
+  uniqno: 1,
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [ 'id', 'username', 'password' ]
+  },
+  isNewRecord: false
+}
+[2024-02-12T15:16:30.528] [ERROR] default - Password is incorrect
+[2024-02-12T15:16:31.558] [DEBUG] default - [Object: null prototype] {}
+[2024-02-12T15:16:31.559] [ERROR] default - Error: Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/AdminPanelController.js:25:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-02-12T15:16:31.570] [DEBUG] default - Partners list:  [
+  Partner {
+    dataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    _previousDataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    _previousDataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    _previousDataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    _previousDataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  }
+]
+[2024-02-12T15:16:52.521] [DEBUG] default - Admin {
+  dataValues: {
+    id: '758539ae-2d89-4638-8fd5-3ff39d959554',
+    username: 'alex',
+    password: '$2b$10$XQAlDpFwv0wLrZUDxHZbOudotEs/AC/SdAsI/zhQeFpVcCbT.gJZ.'
+  },
+  _previousDataValues: {
+    id: '758539ae-2d89-4638-8fd5-3ff39d959554',
+    username: 'alex',
+    password: '$2b$10$XQAlDpFwv0wLrZUDxHZbOudotEs/AC/SdAsI/zhQeFpVcCbT.gJZ.'
+  },
+  uniqno: 1,
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [ 'id', 'username', 'password' ]
+  },
+  isNewRecord: false
+}
+[2024-02-12T15:16:52.627] [ERROR] default - Password is incorrect
+[2024-02-12T15:16:53.651] [DEBUG] default - [Object: null prototype] {}
+[2024-02-12T15:16:53.652] [ERROR] default - Error: Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/AdminPanelController.js:25:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-02-12T15:16:53.659] [DEBUG] default - Partners list:  [
+  Partner {
+    dataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    _previousDataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    _previousDataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    _previousDataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    _previousDataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  }
+]
+[2024-02-12T15:17:00.296] [DEBUG] default - Admin {
+  dataValues: {
+    id: '758539ae-2d89-4638-8fd5-3ff39d959554',
+    username: 'alex',
+    password: '$2b$10$XQAlDpFwv0wLrZUDxHZbOudotEs/AC/SdAsI/zhQeFpVcCbT.gJZ.'
+  },
+  _previousDataValues: {
+    id: '758539ae-2d89-4638-8fd5-3ff39d959554',
+    username: 'alex',
+    password: '$2b$10$XQAlDpFwv0wLrZUDxHZbOudotEs/AC/SdAsI/zhQeFpVcCbT.gJZ.'
+  },
+  uniqno: 1,
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [ 'id', 'username', 'password' ]
+  },
+  isNewRecord: false
+}
+[2024-02-12T15:17:00.401] [ERROR] default - Password is incorrect
+[2024-02-12T15:17:01.421] [DEBUG] default - [Object: null prototype] {}
+[2024-02-12T15:17:01.421] [ERROR] default - Error: Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/AdminPanelController.js:25:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-02-12T15:17:01.429] [DEBUG] default - Partners list:  [
+  Partner {
+    dataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    _previousDataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    _previousDataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    _previousDataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    _previousDataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  }
+]
+[2024-02-12T18:02:19.353] [DEBUG] default - Partners list:  [
+  Partner {
+    dataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    _previousDataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    _previousDataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    _previousDataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    _previousDataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  }
+]
+[2024-02-12T18:06:50.570] [DEBUG] default - Admin {
+  dataValues: {
+    id: '758539ae-2d89-4638-8fd5-3ff39d959554',
+    username: 'alex',
+    password: '$2b$10$XQAlDpFwv0wLrZUDxHZbOudotEs/AC/SdAsI/zhQeFpVcCbT.gJZ.'
+  },
+  _previousDataValues: {
+    id: '758539ae-2d89-4638-8fd5-3ff39d959554',
+    username: 'alex',
+    password: '$2b$10$XQAlDpFwv0wLrZUDxHZbOudotEs/AC/SdAsI/zhQeFpVcCbT.gJZ.'
+  },
+  uniqno: 1,
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [ 'id', 'username', 'password' ]
+  },
+  isNewRecord: false
+}
+[2024-02-12T18:06:50.678] [DEBUG] default - Password is correct
+[2024-02-12T18:06:51.706] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA0MTAsImV4cCI6MTcwNzc5MzYxMH0.fFBzka10Mc__FzYr1mzOTZvEbL0MMJAsvlMMMoNnaU4'
+}
+[2024-02-12T18:06:51.711] [INFO] default - User undefined is authorized
+[2024-02-12T18:06:56.611] [DEBUG] default - [Object: null prototype] { text: 'l', url: 'll', duration: 'l' } undefined
+[2024-02-12T18:06:56.613] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:06:56.625] [INFO] default - Video has been inserted
+[2024-02-12T18:06:56.641] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA0MTAsImV4cCI6MTcwNzc5MzYxMH0.fFBzka10Mc__FzYr1mzOTZvEbL0MMJAsvlMMMoNnaU4'
+}
+[2024-02-12T18:06:56.643] [INFO] default - User undefined is authorized
+[2024-02-12T18:06:59.891] [DEBUG] default - [Object: null prototype] { text: 'l', url: 'll', duration: 'l' } undefined
+[2024-02-12T18:06:59.894] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:06:59.898] [INFO] default - Video has been inserted
+[2024-02-12T18:06:59.912] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA0MTAsImV4cCI6MTcwNzc5MzYxMH0.fFBzka10Mc__FzYr1mzOTZvEbL0MMJAsvlMMMoNnaU4'
+}
+[2024-02-12T18:06:59.913] [INFO] default - User undefined is authorized
+[2024-02-12T18:07:02.097] [DEBUG] default - [Object: null prototype] { text: 'l', url: 'll', duration: 'll' } undefined
+[2024-02-12T18:07:02.099] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:07:02.104] [INFO] default - Video has been inserted
+[2024-02-12T18:07:02.119] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA0MTAsImV4cCI6MTcwNzc5MzYxMH0.fFBzka10Mc__FzYr1mzOTZvEbL0MMJAsvlMMMoNnaU4'
+}
+[2024-02-12T18:07:02.121] [INFO] default - User undefined is authorized
+[2024-02-12T18:07:04.112] [DEBUG] default - [Object: null prototype] { text: 'll', url: 'll', duration: 'll' } undefined
+[2024-02-12T18:07:04.113] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:07:04.117] [INFO] default - Video has been inserted
+[2024-02-12T18:07:04.130] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA0MTAsImV4cCI6MTcwNzc5MzYxMH0.fFBzka10Mc__FzYr1mzOTZvEbL0MMJAsvlMMMoNnaU4'
+}
+[2024-02-12T18:07:04.132] [INFO] default - User undefined is authorized
+[2024-02-12T18:07:06.896] [DEBUG] default - [Object: null prototype] { text: 'll', url: 'll', duration: 'll' } undefined
+[2024-02-12T18:07:06.897] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:07:06.901] [INFO] default - Video has been inserted
+[2024-02-12T18:07:06.915] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA0MTAsImV4cCI6MTcwNzc5MzYxMH0.fFBzka10Mc__FzYr1mzOTZvEbL0MMJAsvlMMMoNnaU4'
+}
+[2024-02-12T18:07:06.917] [INFO] default - User undefined is authorized
+[2024-02-12T18:07:10.195] [DEBUG] default - [Object: null prototype] { text: 'lll', url: 'll', duration: 'll' } undefined
+[2024-02-12T18:07:10.196] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:07:10.199] [INFO] default - Video has been inserted
+[2024-02-12T18:07:10.212] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA0MTAsImV4cCI6MTcwNzc5MzYxMH0.fFBzka10Mc__FzYr1mzOTZvEbL0MMJAsvlMMMoNnaU4'
+}
+[2024-02-12T18:07:10.214] [INFO] default - User undefined is authorized
+[2024-02-12T18:07:13.845] [DEBUG] default - [Object: null prototype] { text: 'll', url: 'll', duration: 'll' } undefined
+[2024-02-12T18:07:13.846] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:07:13.850] [INFO] default - Video has been inserted
+[2024-02-12T18:07:13.864] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA0MTAsImV4cCI6MTcwNzc5MzYxMH0.fFBzka10Mc__FzYr1mzOTZvEbL0MMJAsvlMMMoNnaU4'
+}
+[2024-02-12T18:07:13.866] [INFO] default - User undefined is authorized
+[2024-02-12T18:07:16.796] [DEBUG] default - [Object: null prototype] { text: 'll', url: 'll', duration: 'll' } undefined
+[2024-02-12T18:07:16.797] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:07:16.803] [INFO] default - Video has been inserted
+[2024-02-12T18:07:16.817] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA0MTAsImV4cCI6MTcwNzc5MzYxMH0.fFBzka10Mc__FzYr1mzOTZvEbL0MMJAsvlMMMoNnaU4'
+}
+[2024-02-12T18:07:16.818] [INFO] default - User undefined is authorized
+[2024-02-12T18:07:21.161] [DEBUG] default - [Object: null prototype] { text: 'll', url: 'lll', duration: 'll' } undefined
+[2024-02-12T18:07:21.162] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:07:21.166] [INFO] default - Video has been inserted
+[2024-02-12T18:07:21.180] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA0MTAsImV4cCI6MTcwNzc5MzYxMH0.fFBzka10Mc__FzYr1mzOTZvEbL0MMJAsvlMMMoNnaU4'
+}
+[2024-02-12T18:07:21.181] [INFO] default - User undefined is authorized
+[2024-02-12T18:07:24.261] [DEBUG] default - [Object: null prototype] {
+  text: ';j;',
+  url: 'k;lk',
+  duration: ';lk;lk;l'
+} undefined
+[2024-02-12T18:07:24.263] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:07:24.266] [INFO] default - Video has been inserted
+[2024-02-12T18:07:24.280] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA0MTAsImV4cCI6MTcwNzc5MzYxMH0.fFBzka10Mc__FzYr1mzOTZvEbL0MMJAsvlMMMoNnaU4'
+}
+[2024-02-12T18:07:24.281] [INFO] default - User undefined is authorized
+[2024-02-12T18:07:27.129] [DEBUG] default - [Object: null prototype] {
+  text: ';l',
+  url: ';l;l;',
+  duration: 'l;l;l'
+} undefined
+[2024-02-12T18:07:27.131] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:07:27.135] [INFO] default - Video has been inserted
+[2024-02-12T18:07:27.149] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA0MTAsImV4cCI6MTcwNzc5MzYxMH0.fFBzka10Mc__FzYr1mzOTZvEbL0MMJAsvlMMMoNnaU4'
+}
+[2024-02-12T18:07:27.150] [INFO] default - User undefined is authorized
+[2024-02-12T18:07:29.661] [DEBUG] default - [Object: null prototype] { text: 'l;', url: 'l;l;', duration: 'l;;l;' } undefined
+[2024-02-12T18:07:29.662] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:07:29.666] [INFO] default - Video has been inserted
+[2024-02-12T18:07:29.680] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA0MTAsImV4cCI6MTcwNzc5MzYxMH0.fFBzka10Mc__FzYr1mzOTZvEbL0MMJAsvlMMMoNnaU4'
+}
+[2024-02-12T18:07:29.681] [INFO] default - User undefined is authorized
+[2024-02-12T18:07:33.912] [DEBUG] default - [Object: null prototype] {
+  text: 'l;',
+  url: 'l;l;l',
+  duration: ';l;l;l'
+} undefined
+[2024-02-12T18:07:33.913] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:07:33.917] [INFO] default - Video has been inserted
+[2024-02-12T18:07:33.941] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA0MTAsImV4cCI6MTcwNzc5MzYxMH0.fFBzka10Mc__FzYr1mzOTZvEbL0MMJAsvlMMMoNnaU4'
+}
+[2024-02-12T18:07:33.942] [INFO] default - User undefined is authorized
+[2024-02-12T18:07:36.469] [DEBUG] default - Partners list:  [
+  Partner {
+    dataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    _previousDataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    _previousDataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    _previousDataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    _previousDataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  }
+]
+[2024-02-12T18:11:32.061] [DEBUG] default - Partners list:  [
+  Partner {
+    dataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    _previousDataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    _previousDataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    _previousDataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    _previousDataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  }
+]
+[2024-02-12T18:11:47.732] [DEBUG] default - Admin {
+  dataValues: {
+    id: '758539ae-2d89-4638-8fd5-3ff39d959554',
+    username: 'alex',
+    password: '$2b$10$XQAlDpFwv0wLrZUDxHZbOudotEs/AC/SdAsI/zhQeFpVcCbT.gJZ.'
+  },
+  _previousDataValues: {
+    id: '758539ae-2d89-4638-8fd5-3ff39d959554',
+    username: 'alex',
+    password: '$2b$10$XQAlDpFwv0wLrZUDxHZbOudotEs/AC/SdAsI/zhQeFpVcCbT.gJZ.'
+  },
+  uniqno: 1,
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [ 'id', 'username', 'password' ]
+  },
+  isNewRecord: false
+}
+[2024-02-12T18:11:47.830] [DEBUG] default - Password is correct
+[2024-02-12T18:11:48.853] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA3MDcsImV4cCI6MTcwNzc5MzkwN30.LYEVgLZ551QWIUqqVgnUsQ0iXY8Ol6K04LZtPK6BQK8'
+}
+[2024-02-12T18:11:48.855] [INFO] default - User undefined is authorized
+[2024-02-12T18:11:50.554] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:11:50.563] [INFO] default - Video 33746354-ced2-4fad-a4f4-b02f5863d763 has been deleted
+[2024-02-12T18:11:50.576] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA3MDcsImV4cCI6MTcwNzc5MzkwN30.LYEVgLZ551QWIUqqVgnUsQ0iXY8Ol6K04LZtPK6BQK8'
+}
+[2024-02-12T18:11:50.577] [INFO] default - User undefined is authorized
+[2024-02-12T18:11:50.966] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:11:50.968] [INFO] default - Video e59cd8dc-c83d-407d-bb39-f639ff7069e2 has been deleted
+[2024-02-12T18:11:50.981] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA3MDcsImV4cCI6MTcwNzc5MzkwN30.LYEVgLZ551QWIUqqVgnUsQ0iXY8Ol6K04LZtPK6BQK8'
+}
+[2024-02-12T18:11:50.982] [INFO] default - User undefined is authorized
+[2024-02-12T18:12:17.528] [DEBUG] default - [Object: null prototype] {
+  text: 'BEBRABEBRA',
+  url: 'https://www.youtube.com/embed/7pnzR6kD2Q4?si=w1Cr6NSFf_lGQQQb',
+  duration: '2:04',
+  id: 'f549b3ef-f57c-425c-8c2e-ee79a88d762c'
+} undefined
+[2024-02-12T18:12:17.530] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:12:17.545] [INFO] default - Video f549b3ef-f57c-425c-8c2e-ee79a88d762c has been updated
+[2024-02-12T18:12:17.562] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA3MDcsImV4cCI6MTcwNzc5MzkwN30.LYEVgLZ551QWIUqqVgnUsQ0iXY8Ol6K04LZtPK6BQK8'
+}
+[2024-02-12T18:12:17.564] [INFO] default - User undefined is authorized
+[2024-02-12T18:12:23.209] [DEBUG] default - [Object: null prototype] {
+  text: 'l;',
+  url: 'l;l;l',
+  duration: ';l;l;l',
+  id: '3b63c08d-e512-41bc-8d3e-327388b2e39e'
+} undefined
+[2024-02-12T18:12:23.211] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:12:23.214] [INFO] default - Video 3b63c08d-e512-41bc-8d3e-327388b2e39e has been updated
+[2024-02-12T18:12:23.228] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA3MDcsImV4cCI6MTcwNzc5MzkwN30.LYEVgLZ551QWIUqqVgnUsQ0iXY8Ol6K04LZtPK6BQK8'
+}
+[2024-02-12T18:12:23.230] [INFO] default - User undefined is authorized
+[2024-02-12T18:12:24.426] [DEBUG] default - [Object: null prototype] {
+  text: 'l;',
+  url: 'l;l;',
+  duration: 'l;;l;',
+  id: 'af012396-f7fe-4e11-bc3b-34c8e30ab14f'
+} undefined
+[2024-02-12T18:12:24.427] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:12:24.429] [INFO] default - Video af012396-f7fe-4e11-bc3b-34c8e30ab14f has been updated
+[2024-02-12T18:12:24.441] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTA3MDcsImV4cCI6MTcwNzc5MzkwN30.LYEVgLZ551QWIUqqVgnUsQ0iXY8Ol6K04LZtPK6BQK8'
+}
+[2024-02-12T18:12:24.443] [INFO] default - User undefined is authorized
+[2024-02-12T18:12:38.952] [DEBUG] default - Partners list:  [
+  Partner {
+    dataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    _previousDataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    _previousDataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    _previousDataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    _previousDataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  }
+]
+[2024-02-12T18:15:41.099] [DEBUG] default - Partners list:  [
+  Partner {
+    dataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    _previousDataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    _previousDataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    _previousDataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    _previousDataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  }
+]
+[2024-02-12T18:40:11.565] [ERROR] default - Error Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/DropVideoAPIController.js:18:23)
+    at /Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/routes/api_dropvideo.js:8:26
+    at Layer.handle [as handle_request] (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[2024-02-12T18:40:11.886] [ERROR] default - Error Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/DropVideoAPIController.js:18:23)
+    at /Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/routes/api_dropvideo.js:8:26
+    at Layer.handle [as handle_request] (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[2024-02-12T18:40:12.187] [ERROR] default - Error Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/DropVideoAPIController.js:18:23)
+    at /Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/routes/api_dropvideo.js:8:26
+    at Layer.handle [as handle_request] (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[2024-02-12T18:40:12.546] [ERROR] default - Error Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/DropVideoAPIController.js:18:23)
+    at /Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/routes/api_dropvideo.js:8:26
+    at Layer.handle [as handle_request] (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[2024-02-12T18:40:12.769] [ERROR] default - Error Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/DropVideoAPIController.js:18:23)
+    at /Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/routes/api_dropvideo.js:8:26
+    at Layer.handle [as handle_request] (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[2024-02-12T18:40:12.933] [ERROR] default - Error Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/DropVideoAPIController.js:18:23)
+    at /Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/routes/api_dropvideo.js:8:26
+    at Layer.handle [as handle_request] (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[2024-02-12T18:40:13.100] [ERROR] default - Error Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/DropVideoAPIController.js:18:23)
+    at /Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/routes/api_dropvideo.js:8:26
+    at Layer.handle [as handle_request] (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[2024-02-12T18:40:13.419] [ERROR] default - Error Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/DropVideoAPIController.js:18:23)
+    at /Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/routes/api_dropvideo.js:8:26
+    at Layer.handle [as handle_request] (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[2024-02-12T18:40:13.565] [ERROR] default - Error Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/DropVideoAPIController.js:18:23)
+    at /Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/routes/api_dropvideo.js:8:26
+    at Layer.handle [as handle_request] (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[2024-02-12T18:40:14.386] [ERROR] default - Error Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/DropVideoAPIController.js:18:23)
+    at /Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/routes/api_dropvideo.js:8:26
+    at Layer.handle [as handle_request] (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[2024-02-12T18:40:15.042] [ERROR] default - Error Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/DropVideoAPIController.js:18:23)
+    at /Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/routes/api_dropvideo.js:8:26
+    at Layer.handle [as handle_request] (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[2024-02-12T18:40:15.819] [ERROR] default - Error Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/DropVideoAPIController.js:18:23)
+    at /Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/routes/api_dropvideo.js:8:26
+    at Layer.handle [as handle_request] (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[2024-02-12T18:40:16.053] [ERROR] default - Error Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/DropVideoAPIController.js:18:23)
+    at /Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/routes/api_dropvideo.js:8:26
+    at Layer.handle [as handle_request] (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[2024-02-12T18:40:16.252] [ERROR] default - Error Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/DropVideoAPIController.js:18:23)
+    at /Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/routes/api_dropvideo.js:8:26
+    at Layer.handle [as handle_request] (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[2024-02-12T18:40:16.417] [ERROR] default - Error Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/DropVideoAPIController.js:18:23)
+    at /Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/routes/api_dropvideo.js:8:26
+    at Layer.handle [as handle_request] (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[2024-02-12T18:40:16.565] [ERROR] default - Error Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/DropVideoAPIController.js:18:23)
+    at /Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/routes/api_dropvideo.js:8:26
+    at Layer.handle [as handle_request] (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[2024-02-12T18:40:17.152] [ERROR] default - Error Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/DropVideoAPIController.js:18:23)
+    at /Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/routes/api_dropvideo.js:8:26
+    at Layer.handle [as handle_request] (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[2024-02-12T18:40:17.336] [ERROR] default - Error Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/DropVideoAPIController.js:18:23)
+    at /Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/routes/api_dropvideo.js:8:26
+    at Layer.handle [as handle_request] (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[2024-02-12T18:40:18.254] [DEBUG] default - [Object: null prototype] {}
+[2024-02-12T18:40:18.254] [ERROR] default - Error: Error: An error occured while proceeding token
+    at Object.run (/Users/alexalexdidit/Documents/Code/gutech/gutech_client/gutech_client/controllers/AdminPanelController.js:25:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-02-12T18:40:18.268] [DEBUG] default - Partners list:  [
+  Partner {
+    dataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    _previousDataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    _previousDataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    _previousDataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    _previousDataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  }
+]
+[2024-02-12T18:40:19.491] [DEBUG] default - Partners list:  [
+  Partner {
+    dataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    _previousDataValues: {
+      id: '3a2fd8c3-ce88-4f21-8327-98329f960475',
+      filepath: './static/images/adminpanel/admin-block-3/57549b6f-8fb2-44b0-b7de-840e3a165032.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    _previousDataValues: {
+      id: '5e435268-f856-4c04-b8cc-890d5bfa41af',
+      filepath: './static/images/adminpanel/admin-block-3/383bfc02-8ed2-4804-9aa3-86581459ea61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    _previousDataValues: {
+      id: '73c58f25-6fd2-46be-adb0-11f5e661e41c',
+      filepath: './static/images/adminpanel/admin-block-3/07abae53-211c-4db3-ba57-d314b84081db.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  },
+  Partner {
+    dataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    _previousDataValues: {
+      id: '668d1fbd-e184-4422-9259-d7aba7170ead',
+      filepath: './static/images/adminpanel/admin-block-3/e4e7be9b-71ca-4fa0-aa10-30d560982a61.jpg'
+    },
+    uniqno: 1,
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  }
+]
+[2024-02-12T18:40:26.059] [DEBUG] default - Admin {
+  dataValues: {
+    id: '758539ae-2d89-4638-8fd5-3ff39d959554',
+    username: 'alex',
+    password: '$2b$10$XQAlDpFwv0wLrZUDxHZbOudotEs/AC/SdAsI/zhQeFpVcCbT.gJZ.'
+  },
+  _previousDataValues: {
+    id: '758539ae-2d89-4638-8fd5-3ff39d959554',
+    username: 'alex',
+    password: '$2b$10$XQAlDpFwv0wLrZUDxHZbOudotEs/AC/SdAsI/zhQeFpVcCbT.gJZ.'
+  },
+  uniqno: 1,
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [ 'id', 'username', 'password' ]
+  },
+  isNewRecord: false
+}
+[2024-02-12T18:40:26.166] [DEBUG] default - Password is correct
+[2024-02-12T18:40:27.196] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTI0MjYsImV4cCI6MTcwNzc5NTYyNn0.dJyrQCBME_QL6l4qxNdDAEEBkP79pEoHihhPERdVtys'
+}
+[2024-02-12T18:40:27.200] [INFO] default - User undefined is authorized
+[2024-02-12T18:40:27.482] [DEBUG] default - [Object: null prototype] {
+  text: 'll',
+  url: 'll',
+  duration: 'll',
+  id: '264ff469-a298-49d0-9a3a-c0dfc2d4f109'
+} undefined
+[2024-02-12T18:40:27.484] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:40:27.489] [INFO] default - Video 264ff469-a298-49d0-9a3a-c0dfc2d4f109 has been updated
+[2024-02-12T18:40:27.502] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTI0MjYsImV4cCI6MTcwNzc5NTYyNn0.dJyrQCBME_QL6l4qxNdDAEEBkP79pEoHihhPERdVtys'
+}
+[2024-02-12T18:40:27.503] [INFO] default - User undefined is authorized
+[2024-02-12T18:40:37.355] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:40:37.360] [INFO] default - Video 264ff469-a298-49d0-9a3a-c0dfc2d4f109 has been deleted
+[2024-02-12T18:40:37.372] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTI0MjYsImV4cCI6MTcwNzc5NTYyNn0.dJyrQCBME_QL6l4qxNdDAEEBkP79pEoHihhPERdVtys'
+}
+[2024-02-12T18:40:37.373] [INFO] default - User undefined is authorized
+[2024-02-12T18:40:37.904] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:40:37.907] [INFO] default - Video 55258339-6e30-47d5-837b-7bb83b19d0b5 has been deleted
+[2024-02-12T18:40:37.919] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTI0MjYsImV4cCI6MTcwNzc5NTYyNn0.dJyrQCBME_QL6l4qxNdDAEEBkP79pEoHihhPERdVtys'
+}
+[2024-02-12T18:40:37.920] [INFO] default - User undefined is authorized
+[2024-02-12T18:40:38.116] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:40:38.118] [INFO] default - Video 01902d8c-ffd4-4c0d-820b-fd218bd71ab6 has been deleted
+[2024-02-12T18:40:38.126] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTI0MjYsImV4cCI6MTcwNzc5NTYyNn0.dJyrQCBME_QL6l4qxNdDAEEBkP79pEoHihhPERdVtys'
+}
+[2024-02-12T18:40:38.128] [INFO] default - User undefined is authorized
+[2024-02-12T18:40:38.384] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:40:38.387] [INFO] default - Video 324fcddf-06f3-4af5-ae8a-3ea1468aaf5a has been deleted
+[2024-02-12T18:40:38.397] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTI0MjYsImV4cCI6MTcwNzc5NTYyNn0.dJyrQCBME_QL6l4qxNdDAEEBkP79pEoHihhPERdVtys'
+}
+[2024-02-12T18:40:38.399] [INFO] default - User undefined is authorized
+[2024-02-12T18:40:38.582] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:40:38.584] [INFO] default - Video af012396-f7fe-4e11-bc3b-34c8e30ab14f has been deleted
+[2024-02-12T18:40:38.593] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTI0MjYsImV4cCI6MTcwNzc5NTYyNn0.dJyrQCBME_QL6l4qxNdDAEEBkP79pEoHihhPERdVtys'
+}
+[2024-02-12T18:40:38.595] [INFO] default - User undefined is authorized
+[2024-02-12T18:40:38.766] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:40:38.768] [INFO] default - Video 3b63c08d-e512-41bc-8d3e-327388b2e39e has been deleted
+[2024-02-12T18:40:38.776] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTI0MjYsImV4cCI6MTcwNzc5NTYyNn0.dJyrQCBME_QL6l4qxNdDAEEBkP79pEoHihhPERdVtys'
+}
+[2024-02-12T18:40:38.778] [INFO] default - User undefined is authorized
+[2024-02-12T18:40:39.049] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:40:39.052] [INFO] default - Video f549b3ef-f57c-425c-8c2e-ee79a88d762c has been deleted
+[2024-02-12T18:40:39.064] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTI0MjYsImV4cCI6MTcwNzc5NTYyNn0.dJyrQCBME_QL6l4qxNdDAEEBkP79pEoHihhPERdVtys'
+}
+[2024-02-12T18:40:39.065] [INFO] default - User undefined is authorized
+[2024-02-12T18:40:40.557] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:40:40.561] [INFO] default - Video a03d6d17-833e-4d6a-8190-d857b255a70b has been deleted
+[2024-02-12T18:40:40.571] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTI0MjYsImV4cCI6MTcwNzc5NTYyNn0.dJyrQCBME_QL6l4qxNdDAEEBkP79pEoHihhPERdVtys'
+}
+[2024-02-12T18:40:40.573] [INFO] default - User undefined is authorized
+[2024-02-12T18:40:40.783] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:40:40.786] [INFO] default - Video e4259385-f29f-4c98-b7d5-6bce8da5fdc5 has been deleted
+[2024-02-12T18:40:40.795] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTI0MjYsImV4cCI6MTcwNzc5NTYyNn0.dJyrQCBME_QL6l4qxNdDAEEBkP79pEoHihhPERdVtys'
+}
+[2024-02-12T18:40:40.797] [INFO] default - User undefined is authorized
+[2024-02-12T18:40:40.999] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:40:41.001] [INFO] default - Video ebefdf8d-34b1-4f6c-bbc5-15224b2090f0 has been deleted
+[2024-02-12T18:40:41.008] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTI0MjYsImV4cCI6MTcwNzc5NTYyNn0.dJyrQCBME_QL6l4qxNdDAEEBkP79pEoHihhPERdVtys'
+}
+[2024-02-12T18:40:41.010] [INFO] default - User undefined is authorized
+[2024-02-12T18:40:41.182] [INFO] default - Access is authorized:  undefined
+[2024-02-12T18:40:41.185] [INFO] default - Video b9f9ca33-0e0d-4f29-8db8-304afc9f50b0 has been deleted
+[2024-02-12T18:40:41.193] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTI0MjYsImV4cCI6MTcwNzc5NTYyNn0.dJyrQCBME_QL6l4qxNdDAEEBkP79pEoHihhPERdVtys'
+}
+[2024-02-12T18:40:41.194] [INFO] default - User undefined is authorized
+[2024-02-12T18:40:50.793] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTI0MjYsImV4cCI6MTcwNzc5NTYyNn0.dJyrQCBME_QL6l4qxNdDAEEBkP79pEoHihhPERdVtys'
+}
+[2024-02-12T18:40:50.794] [INFO] default - User undefined is authorized
+[2024-02-12T19:12:03.181] [DEBUG] default - Admin {
+  dataValues: {
+    id: '758539ae-2d89-4638-8fd5-3ff39d959554',
+    username: 'alex',
+    password: '$2b$10$XQAlDpFwv0wLrZUDxHZbOudotEs/AC/SdAsI/zhQeFpVcCbT.gJZ.'
+  },
+  _previousDataValues: {
+    id: '758539ae-2d89-4638-8fd5-3ff39d959554',
+    username: 'alex',
+    password: '$2b$10$XQAlDpFwv0wLrZUDxHZbOudotEs/AC/SdAsI/zhQeFpVcCbT.gJZ.'
+  },
+  uniqno: 1,
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [ 'id', 'username', 'password' ]
+  },
+  isNewRecord: false
+}
+[2024-02-12T19:12:03.286] [DEBUG] default - Password is correct
+[2024-02-12T19:12:04.317] [DEBUG] default - {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDc3NTQzMjMsImV4cCI6MTcwNzc5NzUyM30.H0Pay7s-zO5ytkWa-c1EcBuotaXqH1LJxjB8mkvwi98'
+}
+[2024-02-12T19:12:04.320] [INFO] default - User undefined is authorized

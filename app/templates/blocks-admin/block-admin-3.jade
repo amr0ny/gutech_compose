@@ -1,0 +1,78 @@
+.block.block-admin-3
+    .container
+        p.container-header Partners 
+        .list-container      
+            - each partner, index in partners
+                form.admin-panel-form(id=partner.id enctype="multipart/form-data")
+                    img.form-img(class='block-admin-3-form-pic' src=partner.filepath name='file')
+                    
+                    .input-wrapper
+                        input.form-input.form-input-file(name='image' type="file" accept="image/*")
+                        input.form-input.form-input-submit(type="submit" value='Изменить' onclick='formPartnerSubmitHandler(event)')     
+                        button.form-input.form-input-delete(type="submit" onclick='deletePartnerSubmitHandler(event)') &#9747; Удалить
+
+            form.admin-panel-form.admin-panel-form-new(enctype="multipart/form-data")
+                .input-wrapper
+                    p.form-header Добавить нового партнера
+                .input-wrapper
+                    input.form-input.form-input-file(name='image' type="file" accept="image/*")
+                    input.form-input.form-input-submit(type="submit" onclick='formPartnerSubmitHandler(event)' value='Добавить')
+script.
+    function formPartnerSubmitHandler(event) {
+        try {
+            event.preventDefault();
+            var submitEvent = event.target;
+            var form = submitEvent.closest('.admin-panel-form');
+            console.log(form.image.value);
+            if (!form.image.value)
+                throw new Error('Partner is empty or some fields are missing');
+            var formData = new FormData(form);
+            if(form.id)
+                formData.append('id', form.id);
+            console.log(formData.get('image'));
+            fetch('/api/updatepartner', {
+                method: 'POST',
+                body: formData
+            })
+            .then((res) => {
+                if (res.status == 200) {
+                    location.reload();
+                } else {
+                    throw new Error('Server returned an error');
+                }
+            })
+            .catch((error) => { 
+                console.error('Error:', error);
+            });
+
+        } catch (error) {
+            console.error('Error:', error);
+        }
+    }
+    function deletePartnerSubmitHandler(event) {
+        try {
+            event.preventDefault();
+            var submitEvent = event.target;
+            var form = submitEvent.closest('.admin-panel-form');
+            if(!form.id)
+                throw new Error('Partner id is missing');
+            var formData = new FormData(form);
+            formData.append('id', form.id);
+            fetch('/api/droppartner', {
+                method: 'POST',
+                body: formData
+            })
+            .then((res) => {
+                if (res.status == 200) {
+                    location.reload();
+                } else {
+                    throw new Error('Server returned an error');
+                }
+            })
+            .catch((error) => { 
+                console.error('Error:', error);
+            });
+        } catch(error) {
+            console.log('Error:', error)
+        }
+    }

@@ -1,0 +1,30 @@
+mixin videoPlayer(src)
+  .video-container
+    iframe#video-content(width='100%', height='100%', src=src, title='YouTube video player', frameborder='0', allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share', allowfullscreen='')
+
+mixin videoPlaylist(videos)
+  - if (typeof videos !== 'undefined' && videos.length > 0 && typeof videos[0].url !== 'undefined')
+    - videos[0].isFirst = true
+  - each video, index in videos
+      - const classes = video.isFirst ? 'video-playlist-item active' : 'video-playlist-item'
+      div(class=classes, onclick=`clickHandler('${video.url}')`)
+        p.video-playlist-item-id #{index+1}
+        p.video-playlist-item-title #{video.text}
+        p.video-playlist-item-duration #{video.duration}
+  
+
+//- Need to fix how the player looks
+.block-5
+  .wrapper
+    .container.container-block-5
+      - if (typeof videos !== 'undefined' && videos.length > 0 && typeof videos[0].url !== 'undefined')
+        +videoPlayer(videos[0].url)
+      .video-playlist-container
+        .video-playlist-header-container
+          p.video-playlist-header Примеры промо-роликов
+          .video-playlist-subheader
+            .video-playlist-subheader-svg
+            p.video-playlist-subheader-text 5 videos
+        .video-playlist-items-container
+          - var playlistItems = [{src: 'https://www.youtube.com/embed/9bQb0W9YIQM?si=DnJAv39fiiqr8l8f', title: 'Мировой кубок по футболу 2023', duration: '2:32', isFirst: true}, {src: 'https://www.youtube.com/embed/39Wbl4UkyLk?si=76Qv2qm_L_vVGYpq', title: 'Kaspersky Cybersecurity 2023', duration: '1:43'}, {src: 'https://www.youtube.com/embed/J4FpDTs-ZTc?si=ux-pRyzw4Xs3_r5f', title: 'День Молодёжи', duration: '0:53'}, {src: 'https://www.youtube.com/embed/kwPiJeVo_oA?si=ElK4ncY760Q2tYTV', title: 'ОТБОР В КОМАНДУ КТО ТРЕНИРУЕТ ФК "VIBE"', duration: '12:34'}, {src: 'https://www.youtube.com/embed/dueVkwC6KC0?si=iLkABwO8WVtC6aDc', title: 'Квиз', duration: '1:06'}]
+          +videoPlaylist(videos)

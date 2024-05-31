@@ -1,0 +1,26 @@
+.block.block-admin-2
+    .container
+        p.container-header Slideshow 
+        .list-container      
+            - each slide, index in slides
+                form.admin-panel-form(id=slide.id enctype="multipart/form-data")
+                    img.slide-list-elem-image.form-img(class='block-admin-2-form-pic' src=slide.filepath name='file')
+                    .input-wrapper
+                        textarea.form-input.form-input-ltext(placeholder='Заголовок слайда' name='header' type="text") #{slide.header}
+                        textarea.form-input.form-input-ltext(placeholder='Текст слайда/Описание' name='text' type="text" value=slide.text) #{slide.text}
+                    .input-wrapper
+                        input.form-input.form-input-file(name='image' type="file" accept="image/*")
+                    .input-wrapper
+                        input.form-input.form-input-submit.form-input-btn(type="submit" value='Изменить' onclick='formSlideSubmitHandler(event)')
+                        input.form-input.form-input-delete.form-input-btn(type="submit" value='Удалить' onclick='deleteSlideSubmitHandler(event)')
+
+            form.admin-panel-form.admin-panel-form-new(enctype="multipart/form-data")
+                .input-wrapper
+                    p.form-header Добавить новый слайд 
+                .input-wrapper
+                    textarea.form-input.form-input-ltext(placeholder='Заголовок слайда' name='header' type="text")
+                    textarea.form-input.form-input-ltext(placeholder='Текст слайда/Описание' name='text' type="")
+                .input-wrapper 
+                    input.form-input.form-input-file(name='image' type="file" accept="image/*")
+                .input-wrapper
+                    input.form-input.form-input-submit.form-input-btn(type="submit" onclick='formSlideSubmitHandler(event)' value='Добавить')

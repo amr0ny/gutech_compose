@@ -1,0 +1,18 @@
+mixin serviceItem(image, header, text)
+  .service-container
+    .service-image(style=`background-image: url("${image}")`)
+    p.service-header #{header}
+    p.service-description #{text}
+    .service-link
+      a(onclick='document.querySelector(\'.block-1\').scrollIntoView()') Подробнее
+      
+.block-3
+    .wrapper
+      .container.container-block-3
+        .header-container
+          p.block-header Наши услуги
+        .service-list-container
+          +serviceItem('/static/images/block-3/img-1.jpeg', 'Онлайн-трансляции деловых мероприятий', 'Видео-трансляции семинаров, лекций, конференций, форумов, конгрессов, открытых интервью и др')
+          +serviceItem('/static/images/block-3/img-2.jpeg', 'Стримы и вебинары', 'Трансляция вебинаров любой сложности удаленно и из места проведения')
+          +serviceItem('/static/images/block-3/img-3.jpeg', 'Онлайн-конференции с удаленными спикерами', 'Съемка ключевых моментов мероприятия для продвижения и анонсирования будущих')
+          +serviceItem('/static/images/block-3/img-4.jpeg', 'Съемка промо-роликов мероприятия', 'Проведем онлайн-конференций, соединяя спикеров и модераторов из любой точки мира')

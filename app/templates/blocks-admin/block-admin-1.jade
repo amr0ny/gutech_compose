@@ -1,0 +1,22 @@
+.block.block-admin-1
+  .container
+      p.container-header Videos 
+      .list-container
+            - each video, index in videos
+                form.admin-panel-form(id=video.id enctype="multipart/form-data")
+                    .input-wrapper
+                        input.form-input(placeholder='Название/описание видео' name='text' type="text" value=video.text)
+                        input.form-input(placeholder='URL (Поделиться–>Встроить (Далее скопировать значение поля src' name='url' type="text" value=video.url)
+                        input.form-input(placeholder='Длительность видео' name='duration' type="text" value=video.duration)
+                    .input-wrapper
+                        input.form-input.form-input-submit.form-input-btn(type="submit" value='Изменить' onclick='formVideoSubmitHandler(event)')
+                        button.form-input.form-input-btn.form-input-delete(type="submit" onclick='deleteVideoSubmitHandler(event)') Удалить
+            
+            form.admin-panel-form.admin-panel-form-new(enctype="multipart/form-data")
+                .input-wrapper
+                    p.form-header Добавить новое видео 
+                .input-wrapper
+                    input.form-input(placeholder='Название/описание видео' name='text' type="text")
+                    input.form-input(placeholder='URL (Поделиться–>Встроить)' name='url' type="text")
+                    input.form-input(placeholder='Длительность видео' name='duration' type="text")
+                input.form-input.form-input-submit.form-input-btn(type="submit" value='Добавить' onclick='formVideoSubmitHandler(event)')

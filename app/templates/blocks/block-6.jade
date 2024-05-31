@@ -1,0 +1,13 @@
+mixin partnersList(images)
+  .partners-list-container
+    - each image in images
+        .partners-list-item
+          img(src=image.filepath)
+
+.block-6
+    .wrapper
+      .container.container-block-6
+        .header-container.header-container-block-6
+          p.block-header Нам доверяют
+        - var images = [{filepath: '/static/images/block-6/img-1.png'}, {filepath: '/static/images/block-6/img-2.png'},{filepath: '/static/images/block-6/img-3.png'}, {filepath: '/static/images/block-6/img-4.png'}, {filepath: '/static/images/block-6/img-5.png'}, {filepath: ''}]
+        +partnersList(partners)

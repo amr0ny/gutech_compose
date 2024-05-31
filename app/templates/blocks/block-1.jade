@@ -1,0 +1,49 @@
+mixin formInputbox(type, label, name, placeholder)
+    label #{label}                                    
+    input(type=type, name=name, placeholder=placeholder)
+
+mixin menu
+  .menu
+    .menu-elem
+        a(onclick='document.querySelector(\'.block-3\').scrollIntoView()') Услуги
+    .menu-elem
+        a.line-left(onclick='document.querySelector(\'.block-4\').scrollIntoView()') Портфолио
+    .menu-elem
+        a.line-left(onclick='document.querySelector(\'.block-7\').scrollIntoView()') Контакты
+
+.block-1
+    .overlay
+    .wrapper
+        .container.container-block-1
+            .header
+                .logo-wrapper
+                    .logo
+                        p GUTECH                             
+                    .logo-text
+                        p.line-left
+                            | онлайн-трансляции, стрим-вебинары и 
+                            br
+                            | съемка видеороликов                         
+                +menu
+            .content-wrapper
+                .block-1-label
+                    p
+                        span.emphasized Онлайн-трансляции
+                        |  вашего мероприятия любой сложности
+                .feedback-form
+                    .feedback-form-header.feedback-form-element
+                        p Бесплатный расчет мероприятия                             
+                    form(action='#', method='POST').js-fetch-form
+                        .feedback-form-inputbox.feedback-form-element
+                            +formInputbox('text', 'Ваше Имя', 'Name', 'Иван')                                
+                        .feedback-form-inputbox.feedback-form-element
+                            +formInputbox('tel', 'Номер телефона', 'Phone', '+7')                                 
+                        .feedback-form-checkbox.feedback-form-element
+                            label
+                                input(type='checkbox', name='Checkbox', value='yes')
+                                .feedback-form-checkbox-checkmark
+                                span
+                                    | Я согласен на обработку моих персональных данных в соответствии с Условиями
+                        .feedback-form-button
+                            button(type='submit') Отправить заявку
+            img.arrow-gif(src='/static/images/block-1/arrow.gif', alt='Arrow')

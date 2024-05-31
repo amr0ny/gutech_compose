@@ -1,0 +1,30 @@
+mixin slide(image, header, text)
+  .slideshow-item-container.slideshow-item.slideshow-fade
+    img.slideshow-item-img(src=image, alt='')
+    .slideshow-item-info
+      p.slideshow-item-info-header #{header}
+      p.slideshow-item-info-text #{text}
+
+mixin slider(slides)
+  .slideshow-container
+    - each item in slides
+      +slide(item.filepath, item.header, item.text)
+    .slideshow-button-wrapper.left
+            button.slideshow-button(onclick='plusSlides(-1)')
+              .button-arrow-svg.left
+                svg(role='presentation', focusable='false', style='display: block', viewbox='0 0 7.3 13', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink')
+                  polyline(fill='none', stroke='#222222', stroke-linejoin='butt', stroke-linecap='butt', stroke-width='1', points='0.5,0.5 6.5,6.5 0.5,12.5')
+    .slideshow-button-wrapper.right
+      button.slideshow-button(onclick='plusSlides(1)')
+        .button-arrow-svg.right
+          svg(role='presentation', focusable='false', style='display: block', viewbox='0 0 7.3 13', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink')
+            polyline(fill='none', stroke='#222222', stroke-linejoin='butt', stroke-linecap='butt', stroke-width='1', points='0.5,0.5 6.5,6.5 0.5,12.5')
+
+.block-4
+    .wrapper.wrapper-slideshow
+      .container.container-block-4
+        .header-container
+          p.block-header Портфолио
+          p.block-subheader Мероприятия, которыми мы гордимся
+        //- var slides_ = [{ image: '/static/images/block-4/1-img.jpeg', header: 'Умный город, ВДНХ', text: 'The Canadian forestry industry is a major contributor to the Canadian economy. With 42 percent of the land acreage of Canada covered by forests, the country contains 10 percent of the world\'s forested land. <br> Forests and forestry in Canada are managed by Natural Resources Canada and the Canadian Forest Service, in cooperation with several organizations which represent government officials, policy experts, and numerous other stakeholders.'}, { image: '/static/images/block-4/2-img.jpeg', header: 'More about countless and breathtaking Canadian Lakes', text: 'Most of the area is served by the Stanwood ZIP code 49346, although "Canadian Lakes, Michigan", is an acceptable name for mail delivery by the post office. <br> Small portions of the area defined by the CDP are served by other postal delivery areas. A small portion in the southern area of the CDP along the Little Muskegon River is served by the Lakeview ZIP code, 48850. A small area in the eastern part of the CDP is served by the Mecosta ZIP code, 49332.'}, {image: '/static/images/block-4/3-img.jpeg', header: 'Lorem ipsum', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac ut consequat semper viverra nam libero justo. Risus commodo viverra maecenas accumsan lacus. Leo vel orci porta non pulvinar neque. Nisl nunc mi ipsum faucibus vitae. Auctor neque vitae tempus quam. Aliquet porttitor lacus luctus accumsan tortor. Tristique senectus et netus et malesuada fames ac turpis egestas. Pretium vulputate sapien nec sagittis. Imperdiet proin fermentum leo vel orci porta. Morbi leo urna molestie at elementum eu facilisis sed. Sagittis id consectetur purus ut faucibus pulvinar elementum. Iaculis eu non diam phasellus vestibulum lorem sed risus. Dolor sit amet'}, {image: '/static/images/block-4/4-img.jpeg', header: 'Lorem ipsum', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac ut consequat semper viverra nam libero justo. Risus commodo viverra maecenas accumsan lacus. Leo vel orci porta non pulvinar neque. Nisl nunc mi ipsum faucibus vitae. Auctor neque vitae tempus quam. Aliquet porttitor lacus luctus accumsan tortor. Tristique senectus et netus et malesuada fames ac turpis egestas. Pretium vulputate sapien nec sagittis. Imperdiet proin fermentum leo vel orci porta. Morbi leo urna molestie at elementum eu facilisis sed. Sagittis id consectetur purus ut faucibus pulvinar elementum. Iaculis eu non diam phasellus vestibulum lorem sed risus. Dolor sit amet'}]
+        +slider(slides)
